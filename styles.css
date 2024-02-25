@@ -1,0 +1,35 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Luckiest+Guy&family=Nabla&family=Press+Start+2P&display=swap');
+/* Import css files*/
+@import url(header.css);
+@import url(information.css);
+@import url(footer.css);
+/* Apply kode mono by default font to all text */
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Kode Mono', monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('elements/omori.webp');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+/* Center items inside container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container > div{
+    margin-top: 25px;
+    background-color: rgba(24, 20, 20, 0.9);
+    border-radius: 0px;
+    border: 2px solid white;
+}
