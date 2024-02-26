@@ -1,0 +1,43 @@
+.discord-status{
+    margin-left: 25%;
+    margin-right: 75%;
+    width: 25%;
+    background-color: rgba(24, 20, 20, 0.9);
+    color: white;
+    text-align: center;
+    border-radius: 0px;
+    border: 2px solid white;
+}
+
+.discord-status img{
+    width: 40%;
+}
+.discord-status h2{
+    font-size: 22px;
+}
+
+/* Media query for tablets and smaller screens */
+@media screen and (max-width: 768px) {
+    .discord-status p{
+        font-size: 10px;
+    }
+    .discord-status h2{
+        font-size: 14px;
+    }
+    .discord-status img{
+        width: 60%;
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    .discord-status p{
+        font-size: 8px;
+    }
+    .discord-status h2{
+        font-size: 10px;
+    }
+    .discord-status img{
+        width: 60%;
+    }
+}

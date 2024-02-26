@@ -1,4 +1,4 @@
-.information{
+.welcome{
     margin-top:25px;
     width: 75%;
     background-color: rgba(24, 20, 20, 0.9);
@@ -6,20 +6,20 @@
     text-align: center;
 }
 
-.information p {
+.welcome p {
     font-size: 18px;
 }
 
 /* Media query for tablets and smaller screens */
 @media screen and (max-width: 768px) {
-    .information p {
+    .welcome p {
         font-size: 12px;
     }
 }
-
+    
 /* Media query for mobile devices */
 @media screen and (max-width: 480px) {
-    .information p {
+    .welcome p {
         font-size: 8px;
     }
 }

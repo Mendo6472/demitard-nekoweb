@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="scripts/discordStatus.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +13,19 @@
         <div class="header">
             <h1>Demitard</h1>
         </div>
-        <div class="information">
+        <div class="welcome">
             <p>Hey, I'm Demitard, welcome to my website!</p>
         </div>
+        <div class="discord-status">
+            <h2>Discord Status</h2>
+            <div id="discord-status">
+                <script>
+                    displayUserInfo('391344552817983498');
+                </script>
+            </div>
+        </div>
         <div class="footer">
+            <a href="https://discordapp.com/users/391344552817983498/"><p>discord</p></a>
             <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button3.gif"></a>
         </div>
     </div>
