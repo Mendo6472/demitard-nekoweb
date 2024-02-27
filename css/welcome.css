@@ -7,7 +7,9 @@
 }
 
 .welcome p {
+    margin-top: 9px;
     font-size: 18px;
+    margin-bottom: 9px;
 }
 
 /* Media query for tablets and smaller screens */
