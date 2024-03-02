@@ -14,7 +14,7 @@
 }
 
 .discord-status img{
-    width: 40%;
+    width: 50%;
     margin-bottom: 20px;
 }
 .discord-status h2{
@@ -25,6 +25,8 @@
 
 .discord-status p{
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Media query for tablets and smaller screens */
@@ -32,6 +34,8 @@
     .discord-status p{
         font-size: 10px;
         margin-bottom: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .discord-status h2{
         font-size: 14px;
@@ -39,7 +43,7 @@
         margin-bottom: 20px;
     }
     .discord-status img{
-        width: 60%;
+        width: 70%;
         margin-bottom: 15px;
     }
 }
@@ -49,6 +53,8 @@
     .discord-status p{
         font-size: 8px;
         margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .discord-status h2{
         font-size: 10px;
@@ -56,7 +62,7 @@
         margin-bottom: 15px;
     }
     .discord-status img{
-        width: 60%;
+        width: 90%;
         margin-bottom: 10px;
     }
 }
